@@ -1,0 +1,82 @@
+<!--#2B1D07 is dark-->
+<!--#FFFFFF is white-->
+<!--#CAC7C1 is light-->
+
+<style type="text/css"> 
+
+.spacebelow{margin-bottom: 8;}
+
+img{border-radius: 10px;}
+
+header{
+  font: 25pt arial;
+  color: #FFFFFF;
+  background-color: #243B0B; 
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+  padding: 0 20px;
+  margin: 20px 0px;
+  border-radius: 10px;  
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+
+table.styled{
+  font: 13pt arial;
+  color: #2B1D07;
+  background-color: #FFFFFF; 
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+  padding: 0px 20px;
+  border-radius: 10px;  
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+
+body{
+  color: #000;
+  background-color:#CAC7C1;
+  padding: 1.5em;
+  margin: 0;
+  font: 13pt Arial;
+}
+
+h1{
+  margin: 8px;
+}
+
+nav.styled ul{
+	background-color: #243B0B; 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+        z-index: 1;
+	display: inline-table;
+}
+	nav.styled ul:after{
+		content: ""; clear: both; display: block;
+	}
+
+
+nav.styled ul li {
+	float: left;
+}
+	nav ul li a {
+		color: #FFFFFF;
+	}
+	nav ul li:hover {
+		background: #CAC7C1;
+	}
+		nav ul li:hover a {
+			color: #2B1D07;
+		}
+	
+	nav ul li a {
+		display: block; padding: 10px 25px;
+		color: #red; text-decoration: none;
+	}
+
+
+</style>
